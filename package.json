@@ -1,0 +1,22 @@
+{
+  "name": "oemremcbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "rcon-client": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
